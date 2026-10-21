@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stats Gaming – Suivi de tes performances</title>
+<style>
+:root{--bg:#0a0a14;--card:#13132a;--line:#2a2a4a;--tx:#eef1ff;--mut:#9aa0c4;--acc:#7c5cff;--acc2:#00e5ff;--win:#3dffa0;--loss:#ff5c7a;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a0a14;--card:#13132a;--line:#2a2a4a;--tx:#eef1ff;--mut:#9aa0c4}}
+:root[data-theme="dark"]{--bg:#0a0a14;--card:#13132a;--line:#2a2a4a;--tx:#eef1ff;--mut:#9aa0c4}
+html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 20% -10%,#1d1550 0%,var(--bg) 55%);background-attachment:fixed;color:var(--tx);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px 50px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:20px 0 8px}
+.logo{font-weight:900;letter-spacing:.14em;font-size:1.25rem}.logo b{background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+h1{font-size:clamp(1.5rem,4vw,2.2rem);margin:8px 0 4px}
+.sub{color:var(--mut);margin:0 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+.card h2{margin:0 0 12px;font-size:1.05rem}
+select,input{background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:9px 11px;font-size:.95rem;min-width:0}
+.btn{border:0;cursor:pointer;background:linear-gradient(90deg,var(--acc),var(--acc2));color:#05050f;font-weight:800;font-size:.92rem;padding:10px
